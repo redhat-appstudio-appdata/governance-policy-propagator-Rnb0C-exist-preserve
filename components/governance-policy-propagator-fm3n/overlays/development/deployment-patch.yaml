@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: governance-policy-propagator-fm3n
+  namespace: red-hat-acm-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:4a83171d4ab4188fa59e9230967e9d3e5c626068ad9928a4680f1e7d7fa7f02b
+        name: container-image
+        resources: {}
+status: {}
