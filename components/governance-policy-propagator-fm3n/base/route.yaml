@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-propagator-fm3n
     app.kubernetes.io/part-of: governance-policy-propagator
-  name: governance-policy-propagalc5o
+  name: governance-policy-propaga5vyv
   namespace: red-hat-acm-tenant
 spec:
   port:
