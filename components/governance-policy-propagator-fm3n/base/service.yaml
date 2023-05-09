@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: governance-policy-propagator-fm3n
     app.kubernetes.io/part-of: governance-policy-propagator
   name: governance-policy-propagator-fm3n
-  namespace: red-hat-acm-tenant
 spec:
   ports:
   - port: 8080
